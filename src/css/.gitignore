@@ -1,9 +1,7 @@
 # Ignore most of this directory
 *.map
+
 cv.css
 home.css
 screen.css
 
-
-# Except this file
-!.gitignore

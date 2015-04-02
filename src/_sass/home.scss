@@ -1,0 +1,203 @@
+
+body.home {
+
+    // small screen
+    @include media($small-screen) {
+      
+        header {
+            #portrait {
+                width: 20%;
+                float: left;
+                margin-right: em(12px);
+            }
+        }
+
+        #summary {
+            color: $darkblue;
+            border-bottom: 2px solid rgba($lightblue, 0.2);
+            h2 { color: $darkblue; }
+            a { color: $blue; }
+            a:hover { color: $orange; }
+        }
+
+    }
+
+
+
+    // medium and big screen
+    @include media($medium-screen) {
+        // grid stuff...
+        #wrap {
+            @include outer-container;
+            header { @include span-columns(3); }
+            #main { @include span-columns(9); @include omega(); }
+        }
+
+        #title { 
+            text-align: center; 
+            font-size: rem(26px);
+        }
+
+        #summary {
+            color: $darkblue;
+            h2 { color: $darkblue; }
+            a { color: $blue; }
+            a:hover { color: $orange; }
+            p { color: $blue; }
+
+            border-bottom: 2px solid rgba($lightbrown, 0.2);
+            margin: rem(24) 0 rem(12) 0;
+            padding: 0 0 rem(12) 0;
+            section {
+                p {
+                    font-size: $large;
+                    color: $blue;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+
+    // big screen
+    @include media($large-screen) {
+        // grid stuff...
+        #wrap {
+            header { @include span-columns(3); }
+            #main { 
+                @include span-columns(9); 
+                article {
+                    @include span-columns(9 of 9); 
+                    section { @include span-columns(6 of 9); }
+                    aside { @include span-columns(3 of 9); @include omega(); }
+                }
+            }
+        }
+
+        #title {
+            font-size: rem(32px);
+        }
+        #summary { 
+            border-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        #summary section {
+            border-bottom: 2px solid rgba($lightbrown, 0.2);
+            margin: 0;
+            padding: 0 0 rem(12) 0;
+            }
+
+        #summary .contactbadges { display: block; }
+        .contactbadges {
+            img { @include transition(opacity 0.3s linear, background-color 0.3s linear); }   
+            img:hover {
+                opacity: 0.8;
+                background-color: $lightorange;
+            }
+        }
+        #slowfood h2 { margin-top: 0; }
+    }
+
+
+
+    // small screen
+    @include media($small-screen) {
+      
+        header {
+            #portrait {
+                width: 20%;
+                float: left;
+                margin-right: em(12px);
+            }
+        }
+
+        #summary {
+            color: $darkblue;
+            border-bottom: 2px solid rgba($lightblue, 0.2);
+            h2 { color: $darkblue; }
+            a { color: $blue; }
+            a:hover { color: $orange; }
+        }
+
+    }
+
+
+
+    // medium and big screen
+    @include media($medium-screen) {
+        // grid stuff...
+        #wrap {
+            @include outer-container;
+            header { @include span-columns(3); }
+            #main { @include span-columns(9); @include omega(); }
+        }
+
+        #title { 
+            text-align: center; 
+            font-size: rem(26px);
+        }
+
+        #summary {
+            color: $darkblue;
+            h2 { color: $darkblue; }
+            a { color: $blue; }
+            a:hover { color: $orange; }
+            p { color: $blue; }
+
+            border-bottom: 2px solid rgba($lightbrown, 0.2);
+            margin: rem(24) 0 rem(12) 0;
+            padding: 0 0 rem(12) 0;
+            section {
+                p {
+                    font-size: $large;
+                    color: $blue;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+
+    // big screen
+    @include media($large-screen) {
+        // grid stuff...
+        #wrap {
+            header { @include span-columns(3); }
+            #main { 
+                @include span-columns(9); 
+                article {
+                    @include span-columns(9 of 9); 
+                    section { @include span-columns(6 of 9); }
+                    aside { @include span-columns(3 of 9); @include omega(); }
+                }
+            }
+        }
+
+        #title {
+            font-size: rem(32px);
+        }
+        #summary { 
+            border-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        #summary section {
+            border-bottom: 2px solid rgba($lightbrown, 0.2);
+            margin: 0;
+            padding: 0 0 rem(12) 0;
+            }
+
+        #summary .contactbadges { display: block; }
+        .contactbadges {
+            img { @include transition(opacity 0.3s linear, background-color 0.3s linear); }   
+            img:hover {
+                opacity: 0.8;
+                background-color: $lightorange;
+            }
+        }
+        #slowfood h2 { margin-top: 0; }
+    }
+
+
+}  // body.home

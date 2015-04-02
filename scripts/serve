@@ -1,0 +1,2 @@
+#!/bin/sh
+/Users/mjf/venv/mf.com_site/bin/pygreen serve -f /Users/mjf/dev/mf.com/src

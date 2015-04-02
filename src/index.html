@@ -1,0 +1,81 @@
+- inherit _page.mako
+---!
+  title = ""
+  page = "Home"
+
+<%block name="page_style">
+| 
+  <style>
+    #portrait {
+      box-shadow: 0em 0em 2em rgba(255,255,255,1);
+      border-radius: 50%;
+    }
+ </style>
+
+</%block>
+
+
+header
+  img src="img/matt.large.jpg" id="portrait" title="...that's me!"
+  h1#title Matt Feifarek
+
+section#main
+  article#summary
+    section
+      -md
+        I'm a passionate, curious geek & *do-it-yourself*-ist. I live in my hometown of Madison, Wisconsin with my sweetheart and two cats.
+        
+        I've lived in Manhattan and in a solar-powered straw-bale house in a cow pasture. I've travelled in Mexico, India, Finland, and lots of Europe. I have many wide interests and some deep expertise.
+    
+    aside
+      h2 Contact Me
+      p I prefer email for initial overtures: <a href="mailto:m@mattfeifarek.com" title="email me">m@mattfeifarek.com</a>
+
+      ${self.h.contact_badges()}
+
+  article#do
+    h1 What I do
+    section
+      -md
+        I code, consult, make things, cook, and tinker. I volunteer, share, build community, and teach food and cooking at an all-volunteer not-for-profit organization that I lead.
+        
+        I’m a member of a “<a href="http://sector67.org" title="Sector67 in Madison, WI" target="_blank">MakerSpace</a>”. I love to eat-in and eat-out, ride bikes, build bikes, and take photographs. I garden, attend <a href="http://www.esfod.org" title="Eastside Friends of the Dharma" target="_blank">Buddhist</a> philosophy lectures, ferment things, fill-in at a <a href="http://www.squarewineco.com" title="Square Wine Company" target="_blank">wine-shop</a>, and bowl a shaky 160. I make some art.
+
+    aside
+      h2 Details
+      p <a href="cv">Here is my online CV</a>
+      /#projects.bug
+      /  img src="/img/e.projects.jpg" alt="photo: workshop drawings"
+      /  p Here are some pages with some project details
+
+      #photography.bug
+        img src="/img/e.smallcamera.jpg" alt="photo: camera"
+        p Some of my photography is on <a href="https://www.flickr.com/photos/mad_city_bastard/" title="see photos at Flickr...">Flickr</a>.
+      
+      #twinkler.bug
+        img src="/img/e.logo.twinkler.png" alt="Tiny Twinkler Logo"
+        p <a href="http://twnkl.it/" title="visit twnkl.it..." target="_blank">Twnkl.it</a> is a little art-making toy I made.
+      
+
+
+  article#slowfood
+    h2 Slow Food
+    section
+      p I’m the leader of the Madison, WI chapter of the international Slow Food movement. I learned about Slow Food in 2005 in NYC and got involved with the leadership then. I’ve designed and implemented a number of ongoing initiatives both in NYC and Madison, and remain involved in the nitty-gritty in Madison as chair of a group of outstanding volunteers.
+    aside
+      #snail.bug
+        img src="/img/e.logo.snail.svg" alt="Slow Food Snail Logo"
+        p For much more about Slow Food, visit <a href="http://slowfoodmadison.org" title="Slow Food Madison" target="_blank">Madison</a>, <a href="http://www.slowfoodusa.org" title="Slow Food USA" target="_blank">USA</a> and <a href="http://slowfood.com" title="Slow Food International" target="_blank">International</a>.
+
+  article#work
+    h2 How I make my living
+    section
+      -md
+        I’m an independent software developer and technology consultant by trade, specializing in data-driven web applications for small business. I made my first web-site in 1995, and have been semi-at-it ever since.</p>
+
+        I haven’t had a “real job” in a long time and I like it that way — lifestyle is under-rated in our culture. I’ve owned my own business(es) or been an independent contractor since I was 23. I am available to collaborate: I love working with excited, exceptional people on fascinating projects.</p>
+
+    aside
+      h2 Lately
+      p Lately, I’ve mostly consulted for a startup in a niche of the steel industry, doing a variety of research-oriented B2B software projects and service prototypes, but also a wide variety of small-business generalism, from product development to technical illustration.</p>
+

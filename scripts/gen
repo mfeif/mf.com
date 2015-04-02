@@ -1,0 +1,3 @@
+#!/bin/sh
+/Users/mjf/venv/mf.com_site/bin/pygreen gen -f /Users/mjf/dev/mf.com/src /Users/mjf/dev/mf.com/cooked_site
+

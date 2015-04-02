@@ -1,0 +1,5 @@
+# Ignore most of this directory
+*.map
+
+# Except this file
+!.gitignore

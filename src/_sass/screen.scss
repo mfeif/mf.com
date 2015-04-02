@@ -1,0 +1,180 @@
+// bourbon, bitters, neat
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+
+//@import "debug";
+
+// common to all media
+html, body { margin: 0; }
+
+article { @include clearfix; }
+
+// sticky footer stuff
+html, body { height: 100%; }
+#wrap {
+    min-height: 100%;
+    margin-bottom: -$footer-height;
+}
+#wrap:after {
+    content: "";
+    display: block;
+    height: $footer-height;
+}
+footer {
+    height: $footer-height;
+}
+// ------------------------------------------------------------------------
+
+
+// colors n stuff
+
+body, footer { border-top: $big-border-thickness solid $blue; }
+
+body {
+    color: $base-font-color;
+    background-color: $base-background-color;
+}
+footer {
+    background-color: $orange;
+}
+
+
+#title {
+    text-transform: none;
+    font-size: $xxlarge;
+    color: $lightbrown;
+}
+
+.contactbadges {
+    img {
+        width: 2em;
+        opacity: 0.3;
+        background-color: rgba($brown, 0.5);
+        border-radius: 4px;
+        padding: 6px;
+        margin-right: rem(8px);
+    }
+}
+#summary .contactbadges { display: none; }
+
+.bug {
+    @include clearfix;
+    margin-bottom: rem(6px);
+
+    img {
+        width: rem(48px);
+        margin: rem(8px) rem(8px) 0 0;
+        float: left;
+        opacity: 0.7;
+    }
+    p { 
+        padding-top: rem(12px);
+    }
+}
+
+
+// ----------------------------------------------------------------------------------
+
+// small screen
+@include media($small-screen) {
+    #wrap, footer { padding: 0 1em; }
+    #main { padding-bottom: 2em; }
+
+    header {
+        @include clearfix;
+        margin-bottom: 1em;
+
+        #title { 
+            line-height: rem(56px);
+            margin-bottom: 0;
+        }
+    }
+
+    .bug { margin-left: 1em; }
+}
+
+
+// medium and big screen
+@include media($medium-screen) {
+    #wrap {
+        padding: 1.5em;
+    }
+
+    footer {
+        padding: 1.5em;
+    
+        div {
+            @include outer-container;
+            margin: 0 auto;
+            max-width: $max-width;
+            color: rgba($darkbrown, 0.5);
+
+            p { @include span-columns(9); }
+        }
+
+        .contactbadges {
+            @include span-columns(3);
+            img {
+                opacity: 0.5;
+                background-color: $darkorange; 
+            }
+        }
+
+        .copyright { margin-top: rem(18); }
+        nav {
+            margin-top: rem(6);
+            font-weight: bold;
+        }
+    }
+
+    // looks and other stuff
+
+    .bug { margin-left: 1em; }
+
+    aside {
+        p {
+            color: $lightbrown; 
+            font-size: $small;
+        }
+        h2 {
+            color: $darkorange;
+        }
+        p:first-child, h2:first-child {
+          margin-top: 0;
+        }
+    }
+
+}
+
+
+
+
+// big screen
+@include media($large-screen) {
+    footer {
+        .contactbadges {
+            img:hover { background-color: $lightblue; }
+        }
+    }
+
+
+    .bug {
+        margin-left: 0;
+        img { @include transition(opacity 0.3s linear); }
+        img:hover { opacity: 1; }
+        p { margin-bottom: 0; }
+    }
+
+    h1:first-child, h2:first-child {
+        margin-top: rem(12px);
+    }
+
+}
+
+
+// Stuff for home page
+@import "home";
+
+// Stuff for CV page
+@import "cv";

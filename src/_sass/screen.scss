@@ -43,7 +43,7 @@ footer {
 #title {
     text-transform: none;
     font-size: $xxlarge;
-    color: $lightbrown;
+    color: $brown;
 }
 
 .contactbadges {
@@ -92,6 +92,9 @@ footer {
     }
 
     .bug { margin-left: 1em; }
+
+    footer div { margin-top: rem(12); }
+
 }
 
 

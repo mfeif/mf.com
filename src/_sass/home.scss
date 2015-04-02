@@ -10,6 +10,11 @@ body.home {
                 float: left;
                 margin-right: em(12px);
             }
+
+            #title {
+                margin-top: rem(18);
+                padding-top: rem(6);
+            }
         }
 
         #summary {
@@ -19,6 +24,10 @@ body.home {
             a { color: $blue; }
             a:hover { color: $orange; }
         }
+
+        #do h1:first-child { margin-top: rem(12); }
+
+
 
     }
 
@@ -33,9 +42,9 @@ body.home {
             #main { @include span-columns(9); @include omega(); }
         }
 
-        #title { 
+        header #title { 
             text-align: center; 
-            font-size: rem(26px);
+            font-size: rem(32px);
         }
 
         #summary {

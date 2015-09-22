@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mattfeifarek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mattfeifarek.com
+  * I am mattfeifarek (https://keybase.io/mattfeifarek) on keybase.
+  * I have a public key with fingerprint 9AE6 3FEF 7B61 DBD0 4769  5F4C A60C 9B28 AF70 2B05
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c44913241715fb59218c57fd617ce958263c5e045c652ba55882b38617a571510a",
+            "fingerprint": "9ae63fef7b61dbd047695f4ca60c9b28af702b05",
+            "host": "keybase.io",
+            "key_id": "a60c9b28af702b05",
+            "kid": "0101c44913241715fb59218c57fd617ce958263c5e045c652ba55882b38617a571510a",
+            "uid": "4cd1fd91ff648572fb618924bdd70619",
+            "username": "mattfeifarek"
+        },
+        "service": {
+            "hostname": "mattfeifarek.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1442942150,
+    "expire_in": 157680000,
+    "prev": "2a186012c995ead53a254dbff03ee554f59224b4201d6ee899513626c909ae1e",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.46
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJdSBRRGIZnq5XUsiiQJSFhLgphkTkzc+ZnKTJKTUW9KFcSa505c846
+bjuz7Y5butkaREKZtYFZWYLQD2kSFJHRjab9UHQRST9EEERZQUUXUlFhZ6Tuuuzc
+HM58z/vO+33nTC6ez+R4GuDE7IGyYL3nwfhAKxP0dN9JsbpttLGBFBvBcxveYeCE
+E4qYBhtgOcABJIoqEHgRyAASHao8UBCUiSEBGWEVKrwkIIg5ESIJ8roGoaLwuqDQ
+sgapBHAa62eJaYVxPBY3LYfaqhqWBIKJrEvA0A1OlCUVEhFpEodUnVc0InO8zkEq
+bLYTroKG07UELjZt+o0eQnPx/sH/59ytc3YiMgAxVECIJCpQ5gnNrai8qBuGzElA
+dcEEjltaFFM6qjkOwSbR4jjCdvhZWkmaCLvDdbv5B1WM7Cj1iMVtx0b2DlptdpxY
+wBU7bTGX3oX10B+fkG5aBh0nFSRxPGHaFhsAlESO6RoDUeRVkQeQ87N4d8yM45Dp
+ElCWFI4u9zc4SS15DSgSB3ikqhBrBhQ0HoqGTggnYAyhSOjIaIsizwFDwlihGBAk
+XkIqR+8PYNbtbKdlswGRxtTC1DJhhi3NaY1jtuPWWOMCxpPDZHnnuc+Mycle+vfx
+/ZpayGSGS76e7hWuFrye9TJhb/SJnr/2y73GG2Vlzni4PZJZJW1/O/FpeqTg0rq6
+M0fLH/aiN/lD6qubvk69Mjvv4kQFmVlS21NR8+N45rV5Fr0vPbhx8LnhPZTddZdY
+qKFoW256KPf6vvRYMpP6cOLD4c2jTSUtTEvbuY1FK6T6d6nep6PmlivB9LI7pTU9
+gpUcOrVnw+eqvJnC1e8uTJ1/1vjyfXn1ptr+SPsaf2Fp4diRk93TPlIgcHUvPvqX
+tihG5/P7g+mKrTOP+rN8l1d2ze/7Fo2O5Nb4rieVe5MDwWpr/7W+pr2B9T8r8z8u
+Gl7+siT8te7748pjodtVTH37dPo34QY6rg==
+=3gnd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mattfeifarek
+
+==================================================================

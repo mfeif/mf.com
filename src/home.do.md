@@ -1,0 +1,3 @@
+I code, consult, make things, cook, and tinker. I volunteer, share, build community, and teach food and cooking at an all-volunteer not-for-profit organization that I lead.
+
+I’m a member of a “<a href="http://sector67.org" title="Sector67 in Madison, WI" target="_blank">MakerSpace</a>”. I love to eat-in and eat-out, ride bikes, build bikes, and take photographs. I garden, attend <a href="http://www.esfod.org" title="Eastside Friends of the Dharma" target="_blank">Buddhist</a> philosophy lectures, ferment things, fill-in at a <a href="http://www.squarewineco.com" title="Square Wine Company" target="_blank">wine-shop</a>, and bowl a shaky 160. I make some art.

@@ -1,0 +1,19 @@
+<%!
+title = "CV"
+pagename = title
+%>
+<%inherit file="_page.mako" />
+
+<header>
+  <h1 id="title"><a href="/">Matt Feifarek</a> : <span>CV</span></h1>
+  ${self.h.gen_nav(pagename)}
+</header>
+
+<section id="main">
+  <section id="history">
+    <%block filter="mdown"><%include file="cv.history.md" /></%block>
+  </section>
+  <section id="other">
+    <%block filter="mdown"><%include file="cv.other.md" /></%block>
+  </section>
+</section>

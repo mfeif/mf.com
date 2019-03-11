@@ -1,8 +1,8 @@
 <%namespace name="h" file="_helpers.mako" inheritable="True" />
----!
+<%!
   title = ""
-  page = ""
-
+  pagename = ""
+%>
 <!DOCTYPE html>
 <html lang="en">
   <head> 
@@ -13,7 +13,7 @@
     <meta name="description" content="The personal website for Matt Feifarek">
     <title><%block name="tag_title">${" : ".join([s for s in ['Matt Feifarek', self.attr.title] if s])}</%block></title>
 
-    //     <link href="##" type="application/xml" rel="sitemap" title="Sitemap">
+    ##     <link href="##" type="application/xml" rel="sitemap" title="Sitemap">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:700,400,700italic,400italic|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
 
@@ -23,14 +23,15 @@
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <%block name="page_style"></%block>
-    ${h.google_analytics_hook()}
+    ##${h.google_analytics_hook()}
   </%block>
 </head>
 
-- if self.attr.page:
-  <body class="${self.attr.page.lower()}">
-- else
+% if self.attr.pagename:
+  <body class="${self.attr.pagename.lower()}">
+% else:
   <body>
+% endif
 
 <div id="wrap">
 <%block name="page">
@@ -42,9 +43,9 @@
 <%block name="footer">
 
     <b>Other Pages:</b>
-    ${self.h.gen_nav(self.attr.page)}
+    ${self.h.gen_nav(self.attr.pagename)}
 
-    <p class="copyright">Copyright &copy; 2015 Matt Feifarek.</p>
+    <p class="copyright">Copyright &copy; 2015-2019 Matt Feifarek.</p>
 
     ${h.contact_badges()}
 </%block>

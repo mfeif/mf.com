@@ -1,3 +1,0 @@
-#!/bin/sh
-/usr/bin/sass --cach-location /tmp/.sass-cache --watch /Users/mjf/dev/mf.com/src/_sass:/Users/mjf/dev/mf.com/src/css
-

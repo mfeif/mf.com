@@ -1,0 +1,8 @@
+#!/bin/bash
+COMMAND="/usr/local/bin/sass --color --no-quiet --update"
+ROOT="/Users/mjf/dev/mattfeifarek.com/"
+SOURCE=$ROOT"src/_sass/screen.scss"
+DEST=$ROOT"src/css/screen.css"
+
+echo "$COMMAND $SOURCE $DEST"
+$COMMAND $SOURCE $DEST

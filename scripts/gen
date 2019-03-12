@@ -1,3 +1,8 @@
-#!/bin/sh
-/Users/mjf/venv/mf.com_site/bin/pygreen gen -f /Users/mjf/dev/mf.com/src /Users/mjf/dev/mf.com/cooked_site
+#!/bin/bash
+COMMAND="/Library/Frameworks/Python.framework/Versions/3.7/bin/pipenv run pygreen"
+ROOT="/Users/mjf/dev/mattfeifarek.com/"
+SOURCE=$ROOT"src"
+DEST=$ROOT"cooked_site"
 
+echo "$COMMAND gen -f $SOURCE $DEST"
+$COMMAND gen -f $SOURCE $DEST

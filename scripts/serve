@@ -1,2 +1,7 @@
-#!/bin/sh
-/Users/mjf/venv/mf.com_site/bin/pygreen serve -f /Users/mjf/dev/mf.com/src
+#!/bin/bash
+COMMAND="/Library/Frameworks/Python.framework/Versions/3.7/bin/pipenv run pygreen"
+ROOT="/Users/mjf/dev/mattfeifarek.com/"
+SOURCE=$ROOT"src"
+
+echo "$COMMAND serve -f $SOURCE"
+$COMMAND serve -f $SOURCE

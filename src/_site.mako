@@ -15,7 +15,7 @@
 
     ##     <link href="##" type="application/xml" rel="sitemap" title="Sitemap">
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto:700,400,700italic,400italic|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto:700,400,700italic,400italic|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
 
     <link href="/favicon.ico" rel="shortcut icon" />
     <link rel="stylesheet" href="/css/screen.css">

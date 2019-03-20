@@ -1,4 +1,4 @@
-<%inherit file="_site.mako" />
+<%inherit file="site.mako" />
 <%block name="page">
 ${self.body()}
 </%block>

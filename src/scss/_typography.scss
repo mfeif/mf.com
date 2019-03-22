@@ -8,7 +8,7 @@ body {
 
 p, h1, h2 { margin: 0; }
 
-p, #main dl, #main ol, #main ul {
+p, main dl, main ol, main ul {
   line-height: 1.5rem;
   font-size: $normal;
   margin: 0 0 0.75rem 0;

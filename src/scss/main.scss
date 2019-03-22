@@ -61,13 +61,19 @@ footer {
     }
 }
 
+footer h1, footer .copyright {
+    line-height: inherit;
+    font-size: $normal;
+    color: $darkbrown;
+}
+
+
 
 // ============================================================================
 
 // Stuff for home page
 body.home {
     @include smallscreen {
-
         main, footer {
             padding: 0 1em;
             margin-top: 1em;
@@ -156,12 +162,6 @@ body.home {
             }
         }
 
-        footer h1, footer .copyright {
-            line-height: inherit;
-            font-size: $normal;
-            color: $darkbrown;
-        }
-
         aside p {
             color: #7a6b5c;
             font-size: 0.875rem;
@@ -178,7 +178,7 @@ body.home {
 
     @include largescreen {
         main, footer aside {
-            max-width: 75em;
+            max-width: $max-width;
             margin: 1.5em auto;
             padding: 0 1.5em;
         }
@@ -226,7 +226,7 @@ body.home {
 body.cv {
   dt {
     font-weight: bold;
-    margin-top: 0.75rem;
+    margin-top: 0 0 0.75rem 0.75rem;
   }
   dt:first-child {
     margin-top: 0;
@@ -249,7 +249,7 @@ body.cv {
 
   }
 
-    #main {
+    section {
         ul {
             li {
                 list-style-type: square;
@@ -258,48 +258,46 @@ body.cv {
         }
     }
 
+    main, footer aside {
+        max-width: $max-width;
+        padding: 0 1em;
+        margin-top: 1em;
+    }
+
     header {
-        // @include outer-container;
-        h1 {
-            // @include span-columns(10);
-        }
         nav {
-            // @include span-columns(2);
-            text-align: right;
+            display: none;
+        }
+    }
+
+    .contactbadges {
+        img:hover {
+            opacity: 0.8;
+            background-color: $lightorange;
         }
     }
 
 
     @include smallscreen {
         header nav {
-            margin: 1.5rem 1.5rem 0 0;
+            display: none;
         }
     }
 
 
     @include mediumscreen {
-        // grid stuff...
-        #wrap {
-            // #main { @include outer-container; }
-        }
-
-        #history {
-            // @include span-columns(7);
-        }
-        #other {
-            // @include span-columns(5);
+        header nav {
+            margin-top: 0;
         }
     }
 
 
     @include largescreen {
-            #history {
-                // @include span-columns(8);
-            }
-            #other {
-                // @include span-columns(4);
-            }
-            nav { margin: 0; }
+        main, footer aside {
+            max-width: $max-width;
+            margin: 1.5em auto;
+            padding: 0 1.5em;
+        }
     }
 
 }  // cv.scss

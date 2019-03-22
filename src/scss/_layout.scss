@@ -106,3 +106,64 @@ body.home {
 }  // body.home
 
 // ============================================================================
+
+// Stuff for CV page
+body.cv {
+    @include smallscreen {
+      main {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @include mediumscreen {
+        // grid stuff...
+        main {
+          grid-template-columns: 7fr 5fr;
+          gap: 1rem;
+        }
+
+        header {
+          #title {
+            grid-column: 1;
+          }
+        }
+
+        #history {
+            grid-column: 1;
+        }
+        #other {
+            grid-column: 2;
+        }
+    }
+
+
+    @include largescreen {
+        // grid stuff...
+        main, footer aside {
+          grid-template-columns: 8fr 4fr;
+          gap: 2rem;
+        }
+        header {
+          grid-column: 1 / 3;
+        }
+
+        #history {
+            grid-column: 1;
+        }
+        #other {
+            grid-column: 2;
+        }
+
+        footer aside .nav {
+            grid-column: 1;
+        }
+        footer aside .copyright {
+            grid-column: 1;
+        }
+        footer aside .contactbadges {
+            grid-column: 2;
+        }
+
+      }
+}  // cv.scss

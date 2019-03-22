@@ -2,13 +2,13 @@
 2013
 :   Launched "[Twinkler]" a web-based toy that makes art from images. I wrote the engine, designed and built the site, made all the graphic elements and images, and wrote and illustrated the [explanation sections][twinkler_explain].
 
-2008-current
-:   Independent consultant. In recent years, my main client has been a startup in the steel industry; I’ve worked remotely, making web-based calculation tools and software prototypes, making technical drawings, managing projects, and creating marketing materials.
+2008-2016
+:   Independent consultant. My main client was a startup in the steel industry; making web-based calculation tools and software prototypes, making technical drawings, managing projects, and supervising marketing materials including print catalogs and direct email campaigns.
 
 1997-2008
 :   Founder, *Digital Alchemy*, a web-development company specializing in data-driven websites for small businesses. Clients included Eileen Fisher, Compaq, Castrol, Rainforest Alliance and many small organizations including a financial news startup, a hi-fi speaker manufacturer, a jazz archive, and high-school debate organizations.
 
-:   In the early days, the web was “DIY”. We made our own content management systems, asset management systems, authorization/authentication systems, form generation libraries, and so on, and administered our own servers. We used these frameworks, tools and systems in our client work and our own projects.
+:   In the early days, the web was “DIY”. We made our own versioned content management systems, asset management systems, authorization/authentication systems, form generation libraries, and so on, and administered our own servers. We used these frameworks, tools and systems in our client work and our own projects.
 
 :   Key independent projects included *"FolioSpace"*, a portfolio service for artists to showcase their work online, *[CocktailDB.com]*, a sophisticated cocktail recipe database using most of the frameworks mentioned above (still online, though not updated in 10 years).
 
@@ -26,8 +26,8 @@
 :   As a freelance web developer, I made the corporate site for Porter Novelli, then the world's fourth largest public relations firm.
 
 # Volunteering
-2009-Current
-:   Chair, [Slow Food Madison]
+2009-2018
+:   Chair, [Slow Food Madison]. Managed a rotating team of volunteers across several initiatives and events. [More about] my work with Slow Food.
 
 2005-2009
 :   Leadership board, Slow Food NYC
@@ -46,3 +46,5 @@
 [Chelsea CSA]: http://www.chelseacsa.org/
 [210W21st]: http://streeteasy.com/building/210-west-21-street-new_york
 [Slow Food Madison]: http://slowfoodmadison.org
+[More about]: slowfood.html
+

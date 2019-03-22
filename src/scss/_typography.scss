@@ -37,7 +37,7 @@ h2 {
 }
 
 a {
-  //@include transition(color 0.3s linear);
+  transition: opacity 0.3s linear;
   color: $base-link-color;
   text-decoration: none;
 

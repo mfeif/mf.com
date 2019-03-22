@@ -12,8 +12,97 @@ html {
 html,
 body {
   height: 100%;
+  margin: 0;
 }
 
 body {
   margin: 0;
+  display: flex;  // the flex container
+  flex-direction: column;  // vertical stack
 }
+
+main {
+  flex: 1;  // makes it take up the whole height
+}
+
+main, footer aside {
+    display: grid;  // the grid container
+}
+
+
+// ============================================================================
+
+// Stuff for home page
+body.home {
+    @include smallscreen {
+      main {
+        gap: 1rem;
+      }
+    }
+
+// --------------------------------------------------------------------------
+
+    @include mediumscreen {
+      main, footer aside {
+        gap: 1rem;
+        grid-template-columns: 1fr 4fr;
+      }
+
+      header {
+        grid-column: 1;
+        grid-row: 1 / 4;
+      }
+
+      main section, main aside {
+        grid-column: 2;
+      }
+
+      footer aside {
+        gap: 1rem;
+        grid-template-columns: 1fr 3fr 1fr;
+      }
+
+      footer aside .nav {
+          grid-column: 1;
+      }
+      footer aside .copyright {
+          grid-column: 2;
+      }
+      footer aside .contactbadges {
+          grid-column: 3;
+      }
+
+    }
+
+// --------------------------------------------------------------------------
+
+    @include largescreen {
+
+      main, footer aside {
+        gap: $gutter;
+        grid-template-columns: 1fr 2fr 1fr;
+      }
+        header {
+            grid-column: 1;
+            grid-row: 1 / 4;  // there aren't that many rows, but let it overflow
+        }
+        main section {
+            grid-column: 2;
+        }
+        main aside {
+            grid-column: 3;
+        }
+
+        footer aside .nav {
+            grid-column: 1;
+        }
+        footer aside .copyright {
+            grid-column: 2;
+        }
+        footer aside .contactbadges {
+            grid-column: 3;
+        }
+    }
+}  // body.home
+
+// ============================================================================

@@ -23,15 +23,19 @@
 <main>
 <%block name="page">
 </%block>
+</main>
 <footer>
+<aside>
 <%block name="footer">
+    <section class="nav">
     <h1>Other Pages:</h1>
     ${self.h.gen_nav(self.attr.pagename)}
+    </section>
     <p class="copyright">Copyright &copy; 2015-2019 Matt Feifarek.</p>
     ${h.contact_badges()}
 </%block>
+</aside>
 </footer>
-</main>
 ##${h.google_analytics_hook()}
 </body>
 </html>

@@ -1,3 +1,10 @@
-I code, consult, make things, cook, and tinker. I volunteer, share, build community, and teach food and cooking at an all-volunteer not-for-profit organization that I lead.
+I code, consult, coach, cook and tinker. I make physical, virtual, and social things. I volunteer, share, teach and build community. I have many wide interests and some deep expertise. I love collaborating with passionate people on the best possible projects.
 
-I’m a member of a “<a href="http://sector67.org" title="Sector67 in Madison, WI" target="_blank">MakerSpace</a>”. I love to eat-in and eat-out, ride bikes, build bikes, and take photographs. I garden, attend <a href="http://www.esfod.org" title="Eastside Friends of the Dharma" target="_blank">Buddhist</a> philosophy lectures, ferment things, fill-in at a <a href="http://www.squarewineco.com" title="Square Wine Company" target="_blank">wine-shop</a>, and bowl a shaky 160. I make some art.
+I’m a member of a “<a href="http://sector67.org" title="Sector67 in Madison, WI" target="_blank">MakerSpace</a>” and a social-enterprise focussed [Co-Working Space]. I love to cook-in and eat-out, ride bikes, build bikes, and take photographs. I garden, ferment things, fill-in at a <a href="http://www.squarewineco.com" title="Square Wine Company" target="_blank">wine-shop</a>, and bowl a shaky 160.
+
+I was a chapter leader in the [Slow Food] movement for 12 years, in both [New York City] and [Madison].
+
+[Slow Food]: https://www.slowfood.com/
+[Co-Working Space]: https://horizoncw.com/community-partnerships
+[New York City]: http://www.slowfoodnyc.org
+[Madison]: https://slowfoodmadison.org/

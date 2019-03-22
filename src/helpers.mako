@@ -1,10 +1,10 @@
 
 <%block name="contact_badges">
 <div class="contactbadges">
-##  <a href="https://twitter.com/mattfeifarek" target="_blank"><img class="badge" src="/img/e.badge.twitter.svg" title="Twitter" alt="twitter badge" /></a>
-##  <a href="http://www.flickr.com/photos/mad_city_bastard/" target="_blank"><img src="/img/e.badge.flickr.svg" title="Flickr" alt="flickr badge" /></a>
-  <a href="http://instagram.com/mfeif" target="_blank"><img src="/img/e.badge.instagram.svg" title="Instagram" alt="instagram badge" /></a>
-##  <a href="http://twophemera.tumblr.com/" target="_blank"><img src="/img/e.badge.tumblr.svg" title="Tumblr" alt="tumblr badge" /></a>
+  <a href="https://github.com/mfeif" target="_blank"><img src="/img/e.badge.github.svg" title="GitHub" alt="Github badge" /></a>
+  <a href="https://instagram.com/mfeif" target="_blank"><img src="/img/e.badge.instagram.svg" title="Instagram" alt="Instagram badge" /></a>
+  <a href="https://www.linkedin.com/in/mattfeifarek/" target="_blank"><img src="/img/e.badge.linkedin.svg" title="LinkedIn" alt="LinkedIn badge" /></a>
+  <a href="https://twitter.com/mattfeifarek" target="_blank"><img class="badge" src="/img/e.badge.twitter.svg" title="Twitter" alt="Twitter badge" /></a>
 </div>
 </%block>
 
@@ -22,7 +22,7 @@
 <%
   all_pages = {
     'Home': '/',
-    'CV': 'cv.html',
+    'CV': 'cv/',
   }
   remaining_pages = all_pages.copy()
   try:

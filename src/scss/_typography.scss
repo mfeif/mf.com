@@ -22,6 +22,10 @@ h1, h2 {
 }
 h1:first-child, h2:first-child { margin-top: 0; }
 
+h1 + h2 {
+  margin-top: 0.25em;
+}
+
 h1 {
   font-size: $xlarge;
   line-height: 1.75rem;
@@ -37,12 +41,13 @@ h2 {
 }
 
 a {
-  transition: opacity 0.3s linear;
+  transition: 0.3s linear;
   color: $base-link-color;
   text-decoration: none;
 
   &:hover {
     color: $hover-link-color;
+    background-color: $hover-bg-color;
   }
 
   &:active, &:focus {

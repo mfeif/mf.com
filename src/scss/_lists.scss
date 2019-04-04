@@ -19,13 +19,38 @@ ol {
 
 dl {
   margin-bottom: $base-spacing / 2;
+}
 
-  dt {
-    font-weight: bold;
-    margin-top: $base-spacing / 2;
-  }
+dt {
+font-weight: bold;
+margin-top: 0 0 0.75rem 0.75rem;
+}
+dt:first-child {
+margin-top: 0;
+}
 
-  dd {
-    margin: 0;
+dd {
+margin: 0 0 0.75rem 0.75rem;
+}
+
+#skills li {
+  margin-left: 1rem;
+}
+
+main section {
+    ul {
+        li {
+            list-style-type: square;
+            margin: 0 0 0.75rem 1.5rem;
+        }
+    }
+}
+
+nav {
+  ul {
+    li {
+      display: inline;
+      margin-right: 1em;
+    }
   }
 }

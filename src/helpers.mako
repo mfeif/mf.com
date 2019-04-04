@@ -21,8 +21,12 @@
 <%def name="gen_nav(current_page)">
 <%
   all_pages = {
-    'Home': '/',
-    'CV': 'cv/',
+    #page : (label, url)
+    'home' : ('Home', '/'),
+    'cv' : ('CV', '/cv/'),
+    'tech' : ('CV:Tech', '/cv/tech.html'),
+    #'slowfood' : ('CV:Slow Food', '/cv/slowfood.html'),
+    #'social' : ('CV:Social Enterprise', '/cv/social.html'),
   }
   remaining_pages = all_pages.copy()
   try:
@@ -33,8 +37,8 @@
 
 <nav>
   <ul>
-    % for page, url in remaining_pages.items():
-      <li><a href="${url}">${page}</a></li>
+    % for page, (label, url) in remaining_pages.items():
+      <li><a href="${url}">${label}</a></li>
     % endfor
   </ul>
 </nav>

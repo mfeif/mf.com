@@ -1,0 +1,28 @@
+<%!
+title = "Technology Work CV"
+pagename = 'tech'
+%>
+<%inherit file="../page.mako" />
+
+<%block name="page_style">
+  <style>
+    #skills {
+      background-color: hsla(78.5, 86.7%, 91.2%, 0.5);
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+ </style>
+</%block>
+
+<header>
+    <h1 id="title"><a href="/">Matt Feifarek</a> : <span>Technology CV</span></h1>
+    ${self.h.gen_nav(pagename)}
+</header>
+
+<section id="history">
+  <%block filter="mdown,n"><%include file="cv.tech.md" /></%block>
+</section>
+
+<section id="skills">
+  <%block filter="mdown,n"><%include file="cv.tech_skills.md" /></%block>
+</section>

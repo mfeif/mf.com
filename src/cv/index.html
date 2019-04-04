@@ -1,21 +1,60 @@
 <%!
 title = "CV"
-pagename = title
+pagename = 'cv'
 %>
 <%inherit file="../page.mako" />
+
+<%block name="page_style">
+  <style>
+    #note {
+      padding: 0.75em;
+      background-color: rgba(255,255,255,0.7);
+      border-radius: 0.5em;
+    }
+ </style>
+</%block>
 
 <header>
   <h1 id="title"><a href="/">Matt Feifarek</a> : <span>CV</span></h1>
   ${self.h.gen_nav(pagename)}
 </header>
 
-<p style="color:darkred; font-weight:bold;">This is clearly woefully out of date; if you have questions about what I've
-  been up to, please contact me!</p>
 
 <section id="history">
   <%block filter="mdown"><%include file="cv.history.md" /></%block>
 </section>
 
 <section id="other">
-  <%block filter="mdown"><%include file="cv.other.md" /></%block>
+  <aside id="note">
+    <h1>Note!</h1>
+    <p>I have two different career streams that are only somewhat intertwingled: 
+##      <a href="tech.html">web development and associated tech</a>, and<br>
+##      <a href="social.html">social enterprise / community organizing</a>.</p>
+    On this page, I have elected to display a <em>summary of both</em>.
+    ##  For more details about either, follow the links above.
+    </p>
+    <p><strong>I have another page for <a href="tech.html">web development and associated tech work</a>.</strong></p>
+##    <p>I've also got some pages set aside for major topics, including ...</p>
+  </aside>
+  <%block filter="mdown">
+# Education
+2017
+: "[Justified Anger]": An African American history course taught in Madison Wisconsin.
+
+1994
+: Bachelor of Fine Arts, University of Wisconsin, Madison. Specialization in computer-mediated art and independent study
+
+1992
+: Art History Study in Florence, Italy
+
+<img src="/img/photo.matt3.jpg" class="photograph p75" alt="Photo of Matt taking a photo of Matt taking a photo of..." />
+
+# Contact
+Matt Feifarek
++1 (608) 403 -- 5432
+[m@mattfeifarek.com](mailto:m@mattfeifarek.com "email me")
+${self.h.contact_badges()}
+
+[Justified Anger]: https://nehemiah.org/justified-anger/us-history-application/
+  </%block>
 </section>

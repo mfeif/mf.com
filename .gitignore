@@ -5,5 +5,5 @@ py
 Pipfile.lock
 .vscode
 *.code-workspace
-src/css/main.css
+src/css*
 

@@ -29,12 +29,12 @@ $footer-height: 10em;
 
 // Colors
 $white: hsl(240, 11%, 93%);  // cool white
-$blue: hsl(199, 56%, 37%);   // 'mid-century' teal-ish color
-$orange: hsl(27, 72%, 41%);  // 'mid-century' orange-ish color
+$blue: hsl(199.2, 66.5%, 38.6%);   // 'mid-century' teal-ish color
+$orange: hsl(27, 86.4%, 43.3%);  // 'mid-century' orange-ish color
 $brown: hsl(30, 14%, 30%);    // warm-ish dark brown
 
 $darkblue: darken($blue, 8%);
-$darkorange: darken($orange, 12%);
+$darkorange: darken($orange, 5%);
 $darkwhite: darken($white, 8%);
 $darkbrown: darken($brown, 10%);
 
@@ -47,9 +47,10 @@ $lightbrown: lighten($brown, 12%);
 $base-background-color: $white;
 $viewport-background-color: $white;
 $base-font-color: $brown;
-$base-link-color: $darkblue;
-$action-color: $base-link-color;
-$hover-link-color: $orange;
+$base-link-color: #1d90c5;
+$action-color: hsl(198.9, 74.3%, 44.3%);
+$hover-link-color: hsl(27.1, 81%, 49.4%);
+$hover-bg-color: hsla(60, 100%, 92.5%, 0.43);
 
 // Border color
 $base-border-color: $lightbrown;

@@ -97,6 +97,13 @@ color: $brown;
 }
 }
 
+footer nav a {
+    color: $footer-link-color;
+    &:hover {
+        color: $footer-hover-color;
+    }
+}
+
 @include smallscreen {
     main, footer {
         padding: 0 1em;
@@ -122,6 +129,11 @@ color: $brown;
     .bug {
         margin-left: 1em;
     }
+
+    #fwlogo {
+        margin-bottom: 1rem;
+    }
+
     h1:first-child, h2:first-child {
         margin-top: 0;
     }
@@ -155,6 +167,14 @@ color: $brown;
     .bug p {
         margin-bottom: 0;
     }
+    .contactbadges {
+        img:hover {
+            opacity: 0.8;
+            background-color: $lightorange;
+        }
+    }
+
+
 }
 
 // ============================================================================
@@ -244,12 +264,6 @@ body.home {
             }
 
         #summary .contactbadges { display: block; }
-        .contactbadges {
-            img:hover {
-                opacity: 0.8;
-                background-color: $lightorange;
-            }
-        }
     }
 }  // body.home
 
@@ -263,14 +277,6 @@ body.cv {
             display: none;
         }
     }
-
-    .contactbadges {
-        img:hover {
-            opacity: 0.8;
-            background-color: $lightorange;
-        }
-    }
-
 
     @include smallscreen {
     }

@@ -25,8 +25,8 @@
     'home' : ('Home', '/'),
     'cv' : ('CV', '/cv/'),
     'tech' : ('CV:Tech', '/cv/tech.html'),
-    #'slowfood' : ('CV:Slow Food', '/cv/slowfood.html'),
-    #'social' : ('CV:Social Enterprise', '/cv/social.html'),
+    ##'slowfood' : ('CV:Slow Food', '/cv/slowfood.html'),
+    'social' : ('CV:Social Enterprise', '/cv/social.html'),
   }
   remaining_pages = all_pages.copy()
   try:

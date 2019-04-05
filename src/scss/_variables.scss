@@ -52,6 +52,9 @@ $action-color: hsl(198.9, 74.3%, 44.3%);
 $hover-link-color: hsl(27.1, 81%, 49.4%);
 $hover-bg-color: hsla(60, 100%, 92.5%, 0.43);
 
+$footer-link-color: darken($base-link-color, 20%);
+$footer-hover-color: darken($hover-link-color, 15%);
+
 // Border color
 $base-border-color: $lightbrown;
 $base-border: 2px solid $base-border-color;

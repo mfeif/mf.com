@@ -1,10 +1,10 @@
 # Professional Experience
 
-2017-Current
-:   Managing partner, [Working Draft Beer Company][WDBC] a micro-brewery and taproom in Madison.
-
 2016-Current
 :   Founder, executive director of [FoodWorks Madison] a non-profit social enterprise startup that created and runs a training program for kitchen jobs.
+
+2017-Current
+:   Managing partner, [Working Draft Beer Company][WDBC] a micro-brewery and taproom in Madison.
 
 2008-2017
 :   Independent web/technology consultant, with small projects in Madison, and a large client in the steel industry.

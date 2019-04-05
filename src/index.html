@@ -10,6 +10,16 @@ pagename = "home"
       box-shadow: 0em 0em 2em rgba(255,255,255,1);
       border-radius: 50%;
     }
+    #cvlinks {
+      background-color: hsla(78.5, 86.7%, 91.2%, 0.5);
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+
+    #cvlinks p {
+        color: inherit;
+        font-size: inherit;
+    }
  </style>
 </%block>
 
@@ -47,15 +57,8 @@ pagename = "home"
     <h2>Work</h2>
     <%block filter="mdown"><%include file="home.work.md" /></%block>
   </section>
-  <aside>
-    <h2>Details</h2>
-    <p><a href="/cv/">Here is my online CV</a></p>
-##    <div id="projects" class="bug">
-##         <img src="/img/e.projects.jpg" alt="photo: workshop drawings">
-##    </div>
-##         <p>Here are some pages with some project details</p>
-  
-##    <div id="photography" class="bug">
-##      <img src="/img/e.smallcamera.jpg" alt="photo: camera">
-##    </div>
-</aside>
+  <aside id="cvlinks">
+    <h2>More Details</h2>
+    <p>I'm always on the lookout for new collaborations, projects, and opportunities.</p>
+    <p><strong><a href="/cv/">Here is my online CV</a></strong></p>
+  </aside>

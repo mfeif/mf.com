@@ -1,0 +1,23 @@
+<%!
+title = "Social Enterprise and Service Work"
+pagename = 'social'
+%>
+<%inherit file="../page.mako" />
+
+<header>
+    <h1 id="title"><a href="/">Matt Feifarek</a> : <span>${title}</span></h1>
+    ${self.h.gen_nav(pagename)}
+</header>
+
+<article>
+  <section id="intro">
+  </section>
+  <section id="history">
+    <%block filter="mdown,n"><%include file="cv.social.md" /></%block>
+  </section>
+</article>
+
+<aside id="about">
+    <a href="http://www.foodworksmadison.org"><img src="/img/e.logo.fwmsn.svg" id="fwlogo" class="p75" alt="FoodWorks Madison Logo" /></a>
+    <%block filter="mdown,n"><%include file="cv.social_fwmsn.md" /></%block>
+</aside>

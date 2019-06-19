@@ -18,7 +18,7 @@
 
 # Volunteering
 
-2018
+2018 - Current
 :   Startup team coach for the 2018 cohort of [Social Good Accelerator][SGA].
 
 2018

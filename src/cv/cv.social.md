@@ -14,8 +14,8 @@
     - [News video]: Ran a second cohort of eight graduating students, refining the curriculum and teaching tactics to better meet student needs.
     - Invited to be the sponsored social enterprise for Forward Fest's [Spring Tech Kickoff]
 
-2018
-:   Coach/mentor for the second year's [Social Good Accelerator]. Advised several social enterprises on refining models, pitches, etc.
+2018 - current
+:   Coach/mentor for the [Social Good Accelerator]. Advised several social enterprises on refining models, pitches, etc.
 
 2018
 :   Mentor/advisor for [Madison Startup Weekend].

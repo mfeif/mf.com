@@ -15,10 +15,10 @@
     - Invited to be the sponsored social enterprise for Forward Fest's [Spring Tech Kickoff]
 
 2018 - current
-:   Coach/mentor for the [Social Good Accelerator]. Advised several social enterprises on refining models, pitches, etc.
+:   Coach/mentor for the [Social Good Accelerator]. Advised several social enterprises on refining models, pitches, etcetera, specializing in web content strategy.
 
 2018
-:   Mentor/advisor for [Madison Startup Weekend].
+:   Mentor/advisor for [Madison Startup Weekend]. The team I briefly advised happened to win on an in-home private chef popup dinner party business concept.
 
 2015
 :   Taught cooking classes for [Neighborhood Intervention Program] at Madison Public Library's [Bubbler]
@@ -51,3 +51,4 @@
 [Neighborhood Intervention Program]: http://www.capitalcityhues.com/100217NIPS.html
 [Bubbler]: http://madisonbubbler.org/
 [Near-East Community Meal]: https://slowfoodmadison.org/food-pantry-meals
+[Madison Startup Weekend]: https://www.swmadison.com/

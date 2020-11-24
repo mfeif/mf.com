@@ -1,3 +1,3 @@
 #!/bin/sh
-rsync -rv --exclude-from=/Users/mjf/dev/mf.com/scripts/ignore_files.txt /Users/mjf/dev/mf.com/cooked_site/ rucola.mattfeifarek.com:static_web/mattfeifarek.com/
+rsync -rv --exclude-from=/Users/mjf/dev/mattfeifarek.com/scripts/ignore_files.txt /Users/mjf/dev/mattfeifarek.com/cooked_site/ pasilla:/data/static_web/mattfeifarek.com/
 

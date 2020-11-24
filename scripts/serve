@@ -1,5 +1,5 @@
 #!/bin/bash
-COMMAND="/Library/Frameworks/Python.framework/Versions/3.7/bin/pipenv run pygreen"
+COMMAND="pipenv run pygreen"
 ROOT="/Users/mjf/dev/mattfeifarek.com/"
 SOURCE=$ROOT"src"
 

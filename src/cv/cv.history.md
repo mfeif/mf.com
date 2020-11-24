@@ -6,8 +6,8 @@
 2017-2019
 :   Managing partner, [Working Draft Beer Company][WDBC] a micro-brewery and taproom in Madison.
 
-2008-2017
-:   Independent web/technology consultant, with small projects in Madison, and a large client in the steel industry.
+2008-Current
+:   Independent web/technology consultant, with projects in and out of Madison, and one larger client in the steel industry.
 
 1997-2008
 :   Founder, *Digital Alchemy*, a web-development company specializing in data-driven websites for small businesses.
@@ -18,7 +18,7 @@
 
 # Volunteering
 
-2018 - Current
+2018 - 2019
 :   Startup team coach for the 2018 cohort of [Social Good Accelerator][SGA].
 
 2018
@@ -55,7 +55,7 @@
 
 # Honors, Awards, Memberships
 
-2017-current
+2017-2020
 :   Member of [Horizon] social-enterprise oriented co-working space.
 
 2014-current

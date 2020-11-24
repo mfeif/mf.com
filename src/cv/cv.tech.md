@@ -1,7 +1,7 @@
 # Tech Work Experience
 
-2008-2017
-:   Independent consultant. My main client was a startup in the steel industry; where I made web-based calculation tools and software prototypes, made technical drawings, managed projects, and supervised marketing materials including print catalogs and direct email campaigns.
+2008-Current
+:   Independent consultant. My main client has been a startup in the steel industry; I made web-based calculation tools and software prototypes, made technical drawings, managed projects, and supervised marketing materials including print catalogs and direct email campaigns.
 :   I had one successful web app that was in live production from 2006 through 2018, and several other shorter-lived apps.
 
 2013

@@ -1,5 +1,8 @@
 # Professional Experience
 
+2020-Current
+:   Consulting Chief Technology Officer for [Blue Trunk Foundation], a nonprofit dedicated to collecting and sharing information for travelers that have special health or accessibility needs. I'm advising the organization, setting tech strategy, and rebuilding their core product.
+
 2016-Current
 :   Founder, executive director of [FoodWorks Madison] a non-profit social enterprise startup that created and runs a training program for kitchen jobs.
 
@@ -7,7 +10,7 @@
 :   Managing partner, [Working Draft Beer Company][WDBC] a micro-brewery and taproom in Madison.
 
 2008-Current
-:   Independent web/technology consultant, with projects in and out of Madison, and one larger client in the steel industry.
+:   Independent web/technology consultant, with projects in and out of Madison
 
 1997-2008
 :   Founder, *Digital Alchemy*, a web-development company specializing in data-driven websites for small businesses.
@@ -17,6 +20,9 @@
 
 
 # Volunteering
+
+2021
+:   Section Leader for [Code In Place], (an online course of Stanford's Comp-Sci 106A) to more than 12,000 international students, where I teach Python and the fundamentals of computer science.
 
 2018 - 2019
 :   Startup team coach for the 2018 cohort of [Social Good Accelerator][SGA].
@@ -75,4 +81,5 @@
 [M-List]: http://www.channel3000.com/madison-magazine/business-city-life/the-m-list-2014-foodtastic/30732740
 [Terra Madre]: http://www.terramadre.info/en/
 [Horizon]: https://horizoncw.com/community-partnerships
-
+[Blue Trunk Foundation]: https://www.bluetrunk.org/
+[Code In Place]: https://codeinplace.stanford.edu/

@@ -1,7 +1,10 @@
 # Tech Work Experience
 
+2020-Current
+:   Consulting Chief Technology Officer for [Blue Trunk Foundation], a nonprofit dedicated to collecting and sharing information for travelers that have special health or accessibility needs. I'm advising the organization and rebuilding their core product, moving some systems to SaaS platforms and redesigning/reimplementing the custom core for sustainability, full documentation, pragmatic/conservative tech choices, and feature completeness
+
 2008-Current
-:   Independent consultant. My main client has been a startup in the steel industry; I made web-based calculation tools and software prototypes, made technical drawings, managed projects, and supervised marketing materials including print catalogs and direct email campaigns.
+:   Independent consultant. My main client has been a manufacturer in the steel industry; I make web-based calculation tools and software prototypes, technical drawings, have managed projects, and supervised marketing materials including print catalogs and direct email campaigns.
 :   I had one successful web app that was in live production from 2006 through 2018, and several other shorter-lived apps.
 
 2013

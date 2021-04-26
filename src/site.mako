@@ -31,7 +31,7 @@
     <h1>Other Pages:</h1>
     ${self.h.gen_nav(self.attr.pagename)}
     </section>
-    <p class="copyright">Copyright &copy; 2015-2020 Matt Feifarek.</p>
+    <p class="copyright">Copyright &copy; 2015-2021 Matt Feifarek.</p>
     ${h.contact_badges()}
 </%block>
 </aside>

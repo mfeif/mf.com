@@ -1,5 +1,5 @@
 #!/bin/bash
-COMMAND="pipenv run pygreen"
+COMMAND="poetry run pygreen"
 ROOT="/Users/mjf/dev/mattfeifarek.com/"
 SOURCE=$ROOT"src"
 DEST=$ROOT"cooked_site"

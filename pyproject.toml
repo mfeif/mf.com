@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mattfeifarek.com"
+version = "0.1.0"
+description = ""
+authors = ["Matt Feifarek <matt.feifarek@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Mako = "^1.1.4"
+waitress = "^2.0.0"
+docutils = "^0.17.1"
+pymdown-extensions = "^8.1.1"
+MarkdownHighlight = "^0.1.3"
+pygreen = {path = "py/pygreen"}
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.22.0"
+pytest = "^6.2.3"
+flake8 = "^3.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
